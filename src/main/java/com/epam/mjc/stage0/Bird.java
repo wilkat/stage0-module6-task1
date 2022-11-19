@@ -2,7 +2,7 @@ package com.epam.mjc.stage0;
 
 public class Bird extends Animal{
 
-    public Bird(String color, int numberOfPaws, boolean hasFur) {
+    Bird() {
         super("blue", 2, false);
     }
 
@@ -12,7 +12,7 @@ public class Bird extends Animal{
     }
 
     public static void main(String[] args) {
-        Bird kakadu = new Bird("blue", 2, false);
+        Bird kakadu = new Bird();
         System.out.println(kakadu.getDescription());
     }
 }
